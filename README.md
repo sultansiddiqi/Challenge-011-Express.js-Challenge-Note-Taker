@@ -1,4 +1,6 @@
 # 11 Express.js: Note Taker
+![demogif](public/assets/images/Note-taker-Demo.gif)
+
 
 # Description 
 An application that can be used to write, save and delete notes.  This application used an express backend to save and retrieve note data from a JSON file.

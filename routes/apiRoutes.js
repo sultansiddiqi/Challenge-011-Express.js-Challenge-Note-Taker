@@ -8,7 +8,7 @@ module.exports = (app) => {
             if (err) throw err;
             console.log(data);
 
-            return res.json(JSON.parse(data)); //turns it into a JS object aka array
+            return res.json(JSON.parse(data)); //turns it into a JS object, puts it into an array
         });
     });
 
@@ -17,9 +17,9 @@ module.exports = (app) => {
         fs.readFile("./db/db.json", "utf8", (err, data) => {
             if (err) throw err;
             console.log(newNote);
-            let notes = JSON.parse(data); //now array
-            newNote.id = uuid.v4(); //object, how to add properties to objects newNote["id"]
-            notes.push(newNote); //Array -> object
+            let notes = JSON.parse(data); //has become an array
+            newNote.id = uuid.v4(); //object, this is how we add properties to objects newNote["id"]
+            notes.push(newNote); //Array contains object
             fs.writeFile(
                 "./db/db.json",
                 JSON.stringify(notes),
