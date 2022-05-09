@@ -14,8 +14,8 @@ Then, navigate to the address that appears in the console
 1. [Description](#Description)
 2. [Features](#Features)
 3. [License](#License)
-4. [Contributing](#Contributing)
-5. [Questions](#Questions)
+4. [Contributions](#Contributions)
+5. [Information](#Information)
 6. [Usage](#Usage)
 7. [Badges](#Badges)
 
