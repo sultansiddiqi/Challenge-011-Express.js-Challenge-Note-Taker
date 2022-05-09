@@ -12,17 +12,17 @@ if (window.location.pathname === '/notes') {
   noteList = document.querySelectorAll('.list-container .list-group');
 }
 
-// Show an element
+// This allows us to show an element
 const show = (elem) => {
   elem.style.display = 'inline';
 };
 
-// Hide an element
+// This allows us to hide an element
 const hide = (elem) => {
   elem.style.display = 'none';
 };
 
-// activeNote is used to keep track of the note in the textarea
+// This is used to keep track of the note in the textarea
 let activeNote = {};
 
 const getNotes = () =>
@@ -75,9 +75,9 @@ const handleNoteSave = () => {
   });
 };
 
-// Delete the clicked note
+// Allows a note delete to prevent redundancies 
 const handleNoteDelete = (e) => {
-  // prevents the click listener for the list from being called when the button inside of it is clicked
+  // prevents the click listener from the list from being called internal button is all ready clicked
   e.stopPropagation();
 
   const note = e.target;
