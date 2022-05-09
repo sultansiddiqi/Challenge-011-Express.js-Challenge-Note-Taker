@@ -35,8 +35,10 @@ Sultan Siddiqi
 ## GitHub User name 
 sultansiddiqi
 ### Link to GitHub:
+https://github.com/sultansiddiqi/Challenge-011-Express.js-Challenge-Note-Taker
 
 ### To access the website via Heroku
+https://ss-note-taker.herokuapp.com/
 
 ### Email address 
 sultan.siddiqi@gmail.com
