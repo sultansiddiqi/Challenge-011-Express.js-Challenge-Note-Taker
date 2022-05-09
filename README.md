@@ -3,7 +3,7 @@
 
 
 # Description 
-An application that can be used to write, save and delete notes.  This application used an express backend to save and retrieve note data from a JSON file.
+ An application that can be used to write, save and delete notes.  This application uses an express backend to save and retrieve note data from a JSON file.
 
 # Instructions
 To start the application, simply type in console: npm start <br />
@@ -20,11 +20,13 @@ Then, navigate to the address that appears in the console
 7. [Badges](#Badges)
 
 ## Features
+- localhost
+- heroku
 - JSON
+- npm i
 - Express.js
 - Node.js
-- NPM i
-- localhost
+
 
 # License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
@@ -33,7 +35,7 @@ Then, navigate to the address that appears in the console
 # Contributions 
 Sultan Siddiqi
 
-# Questions
+# Information
 ## GitHub User name 
 sultansiddiqi
 ### Link to GitHub:
