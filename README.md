@@ -17,7 +17,6 @@ Then, navigate to the address that appears in the console
 4. [Contributions](#Contributions)
 5. [Information](#Information)
 6. [Usage](#Usage)
-7. [Badges](#Badges)
 
 ## Features
 - localhost
